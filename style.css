@@ -3,9 +3,14 @@
   height: auto;
 }
 
+.header1{
+  background-color: #dd4b39;
+  width: 100%;
+}
+
 .header {
     position: absolute;
-    top: 10%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: aliceblue;
@@ -26,11 +31,11 @@
   .bg{
     border-radius: 6px;
     border: 1px solid #F58220;
-    padding: 20px;
-    margin: 20px;
+    padding: 30px;
+    margin: 30px;
     width: auto;
     margin-left: 15px;
-height: 85%;
+height: 100%;
 font-family: "montserrat" , sans-serif; 
 text-transform: uppercase ;
 cursor: pointer;
@@ -41,11 +46,17 @@ color: #eeebe8;
 
 }
 
-.bg1:hover{
-  color: #F58220; 
+.bg1{
+  color: #1189cf; 
 transition: 0.2s}
+
+.bg2{
+  color: black; 
+transition: 0.2s}
+
+
 .image{
-  margin-left: 7rem;
+  margin-left: 6rem;
  
   border-bottom-style:2px;
   cursor: pointer;
@@ -60,10 +71,10 @@ img:hover {
 ul {
   list-style-type: none;
   margin: 0;
-  margin-top: 1px;
+  margin-top: 0px;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color:  #333333;
   font-family: "montserrat" , sans-serif; 
   text-transform: uppercase ;
 }
@@ -116,7 +127,7 @@ li a:hover:not(.active) {
 }
 
   .cform{
-    color: #333;
+    color: #0549a1;
     font-size: 20px;
     text-align: center;
     font-family: "montserrat" , sans-serif; 
@@ -150,10 +161,12 @@ li a:hover:not(.active) {
     .card:hover {
       box-shadow: 0 0 5px 6px rgba(240, 209, 133, 0.5);
     }
+
     
     .container1 {
-      padding: 2px 16px;
+      padding: 1px 10px;
       width: auto;
+      text-align: center;
     }
    
     .footer{
